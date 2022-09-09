@@ -12,7 +12,7 @@ public class ArrayList_To_HashmapProg {
         HashMap<String, String>full_name=new HashMap<String, String>();
         for (int i=0;i<names.length;i++)
         {
-        full_name.put(names[i],name_List1.get(i));
+        full_name.put(names[i],surName[i]);
         }
         System.out.println(full_name);
         System.out.println(full_name.keySet());
@@ -22,7 +22,7 @@ public class ArrayList_To_HashmapProg {
 
         for(Map.Entry<String, String > entry : full_name.entrySet())
         {
-            System.out.println("Keys - "+entry.getKey()+" Values- "+entry.getValue());
+            System.out.println("Keys - "+entry.getKey()+" Values-  "+entry.getValue());
         }
     }
 }

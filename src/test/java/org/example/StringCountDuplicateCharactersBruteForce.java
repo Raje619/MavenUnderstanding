@@ -9,7 +9,7 @@ public class StringCountDuplicateCharactersBruteForce {
 
         public static void main(String[] args) {
             System.out.println("---------Input 1 ------");
-            printCountOfDuplicateCharacter("JavaProgramTo.com");
+            //printCountOfDuplicateCharacter("JavaProgramTo.com");
             System.out.println("---------Input 2 ------");
             printCountOfDuplicateCharacter("aaaabbbcccccdddddd");
 

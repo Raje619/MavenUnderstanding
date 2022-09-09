@@ -3,7 +3,7 @@ package org.example;
 public class LargestAndSmallestNmber {
     public static void main(String[] args) {
 
-        int num [] = {1,2,4,6,78,100,-6};
+        int num [] = {1,2,4,6,78,100,-6,7};
 
         int largest = num[0];
         int smallest = num[0];

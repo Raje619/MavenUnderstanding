@@ -9,8 +9,8 @@ public class RemoveSplAndJunkChar{
         String removeChar=s.replaceAll("[^a-zA-Z0-9]","");
         String removeCharAndSpace=s.replaceAll("[^a-zA-Z0-9 ]","");
 
-        System.out.println(removeChar);
-        System.out.println(removeCharAndSpace);
-
+        System.out.println(removeChar);//MyNameisRajesh
+        System.out.println(removeCharAndSpace);// My Name is Rajesh
+        System.out.println(removeCharAndSpace.trim());//My Name is Rajesh
     }
 }

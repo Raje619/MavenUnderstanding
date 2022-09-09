@@ -48,15 +48,12 @@ public class DuplicateElements {
             }
         }
 
-        System.out.println("******************************");
-
-
         Set <Map.Entry<String,Integer>> entrySet=storeMap.entrySet();
         for (Map.Entry<String,Integer> entry : entrySet)
         {
             if(entry.getValue()>1)
             {
-                System.out.println("Duplicate Element is::"+entry.getKey());
+                System.out.println("Duplicate Element is::"+entry.getKey()+" Count :"+entry.getValue());
             }
         }
 
