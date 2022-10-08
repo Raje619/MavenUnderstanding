@@ -12,6 +12,18 @@ public class Sort_Hashmap {
         attendance.put("Fred",17);
         attendance.put("Amber",19);
 
+        //Returns a Set view of the mappings contained in this map
+        /*attendance.entrySet()
+                //Returns a sequential Stream with this collection as its source
+                .stream()
+                //Sorted according to the provided Comparator
+                .sorted(Map.Entry.comparingByKey())
+                //Performs an action for each element of this stream
+                .forEach(System.out::println);
+        */
+        attendance.entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())).forEach(System.out::println);
+
+        System.out.println(attendance);
         sortKeys();
         Map<String, Integer> hm1 = sortByValue((HashMap<String, Integer>)attendance);
 

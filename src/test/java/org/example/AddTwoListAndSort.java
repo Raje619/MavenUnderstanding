@@ -14,6 +14,10 @@ public class AddTwoListAndSort {
         List<Integer>a=Arrays.asList(numInA);
         List<Integer>b=Arrays.asList(numInB);
         List<Integer>ab=Stream.concat(a.stream(),b.stream()).collect(Collectors.toList());
+        //or
+//        List<Integer>ab=new ArrayList<>();
+//        ab.addAll(a);
+//        ab.addAll(b);
         System.out.println(ab);
         //a.addAll(b);//will throw an exception called Unsupported Operation exception
         Collections.sort(ab); //Ascending Order

@@ -25,7 +25,7 @@ public class ReplaceDuplicateCharWithAlphaCharac {
                 }
             }
         }
-        String string = Joiner.on("").join(lst);
+        String string = Joiner.on(" ").join(lst);
         System.out.println(string);
     }
 }

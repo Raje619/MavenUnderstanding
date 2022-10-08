@@ -25,7 +25,7 @@ public class ArrayvsArrays {
         Arrays.sort(names);
         System.out.println(Arrays.toString(names));
 
-        int index= Arrays.binarySearch(names,"bmber");
+        int index= Arrays.binarySearch(names,"Amber");
         System.out.println(index);
     }
 }

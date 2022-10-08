@@ -25,10 +25,10 @@ public class DuplicateCharCount {
           }
         }
 
-        Set<Map.Entry<Character,Integer>> entryset =ha.entrySet();
-        for (Map.Entry<Character,Integer> entry : entryset)
+//        Set<Map.Entry<Character,Integer>> entryset =ha.entrySet();
+        for (Map.Entry<Character,Integer> entry : ha.entrySet())
         {
-            if(entry.getValue()>1)
+            if(entry.getValue()>=1)
           System.out.println(entry.getKey()+"  "+entry.getValue());
         }
 
